@@ -6,7 +6,7 @@
                 type="textarea"
         />
         <n-space justify="end">
-            <n-button type="primary" @click="clear" v-show="xml !== ''">清空</n-button>
+            <n-button type="primary" @click="clear">清空</n-button>
         </n-space>
         <n-log :language="'xml'" :log="formattedXml" :rows="24" v-show="xml !== ''"/>
     </n-space>
